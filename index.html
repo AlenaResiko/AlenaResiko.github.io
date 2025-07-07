@@ -25,7 +25,6 @@
                 <p>
 		I'm a Computer Science student at Columbia University.
     I am currently working as a SWE intern.
-		<!-- At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>, and <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">Shopping</a>. -->
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:alenachan121@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -43,9 +42,9 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
+                <h2>Projects</h2>
                 <p>
-                  I'm interested in mathematical modeling and machine learning. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields.
+                  ... projects description coming ...
                 </p>
               </td>
             </tr>
@@ -53,24 +52,9 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     
             
-            <tr onmouseout="npil_stop()" onmouseover="npil_start()">
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='stable_system'>
-                    <img src='images/stable_system_after.jpg' width="160"></div>
-                  <img src='images/stable_system_before.jpg' width="160">
-                </div>
-                <script type="text/javascript">
-                  function npil_start() {
-                    document.getElementById('stable_system').style.opacity = "1";
-                  }
-
-                  function npil_stop() {
-                    document.getElementById('stable_system').style.opacity = "0";
-                  }
-                  npil_stop()
-                </script>
-              </td>
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <img src='images/snake.jpg' width="160">
+            </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/2209.00135">
                   <span class="papertitle">Stabilizing effect of delay in higher dimensions</span>
@@ -112,6 +96,78 @@
 
           </tbody></table>
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:16px;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I'm interested in mathematical modeling and machine learning. I did some research projects in dynamical system stability, TDA, statistical filtering and optimizers.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  
+          
+          <tr onmouseout="npil_stop()" onmouseover="npil_start()">
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='stable_system'>
+                  <img src='images/stable_system_after.jpg' width="160"></div>
+                <img src='images/stable_system_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function npil_start() {
+                  document.getElementById('stable_system').style.opacity = "1";
+                }
+
+                function npil_stop() {
+                  document.getElementById('stable_system').style.opacity = "0";
+                }
+                npil_stop()
+              </script>
+            </td>
+            <td style="padding:8px;width:80%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2209.00135">
+                <span class="papertitle">Stabilizing effect of delay in higher dimensions</span>
+              </a>
+              <br>
+              <strong>Alena Chan</strong>
+              <br>
+              <em>arXiv</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2209.00135">arXiv</a>
+              <p></p>
+              <p>
+                Stabilizing a 3-agent system of linear differential equations by introducing a delayed response.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/snake.jpg' width="160">
+            </td>
+            <td style="padding:8px;width:80%;vertical-align:middle">
+              <a href="">
+                <span class="papertitle">From Rattle to Roar: Optimizer Showdown for MambaStock on S&P500</span>
+              </a>
+              <br>
+              <strong>Alena Chan</strong>
+              <br>
+              <em>arXiv (in progress)</em>, 2025
+              <br>
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+                Designed novel Roaree optimizer that addresses oscillatory training losses of Lion optimizer and preserves fast convergence. Roaree outperformed existing optimizers in stock prediction using Mamba model.
+
+              </p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
           
 					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
@@ -148,13 +204,8 @@
 								 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://www.youtube.com/watch?v=hFlF33JZbA0">Radiance Fields and the Future of Generative Media, 2025</a><br>				  
-                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a><br>
-                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
-</a><br>
-                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a><br>
-				<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a><br>
-				<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
+                <a href="https://devpost.com/software/noteworthy-visualize-capture-remember">Noteworthy, Treehacks-2025</a><br>
+                <a href="https://devpost.com/software/memory-playground">Memory playground, Treehacks-2024</a><br>
               </td>
             </tr>
 

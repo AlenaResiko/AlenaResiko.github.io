@@ -88,6 +88,42 @@
               </td>
             </tr>
 
+            <tr onmouseout="npil_stop()" onmouseover="npil_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='stable_system'>
+                    <img src='images/stable_system_after.jpg' width="160"></div>
+                  <img src='images/stable_system_before.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function npil_start() {
+                    document.getElementById('stable_system').style.opacity = "1";
+                  }
+
+                  function npil_stop() {
+                    document.getElementById('stable_system').style.opacity = "0";
+                  }
+                  npil_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="">
+                  <span class="papertitle">From Rattle to Roar: Optimizer Showdown for MambaStock on S&P500</span>
+                </a>
+                <br>
+                <strong>Alena Chan</strong>
+                <br>
+                <em>arXiv (in progress)</em>, 2025
+                <br>
+                <a href="">arXiv</a>
+                <p></p>
+                <p>
+                  Designed novel Roaree optimizer that addresses oscillatory training losses of Lion optimizer and preserves fast convergence. Roaree outperformed existing optimizers in stock prediction using Mamba model.
+
+                </p>
+              </td>
+            </tr>
+
           </tbody></table>
 
           

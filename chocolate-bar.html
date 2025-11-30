@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chocolate Bar – Alena Chan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      font-weight: 500;
+    }
+    p {
+      text-align: center;
+    }
+    .content {
+      text-align: left;
+      margin: 20px 0;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 30px 0;
+    }
+    button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: block;
+      margin: 20px auto;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+    #hint, #solution {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Chocolate Bar</h1>
+  <p>
+    <a href="index.html">Home</a> &nbsp;/&nbsp;
+    <a href="interesting-links.html">Interesting Links</a> &nbsp;/&nbsp;
+    <a href="https://github.com/alenaresiko/">GitHub</a>
+  </p>
+  <hr>
+
+  <div class="content">
+    <p>
+      TLDR: Break chocolate in turns and don't eat the marked piece. 
+      Two palyers cut chocolate bar of nxm in turns. One cell is special, player who eats it loses. 
+      A turn consists of either breaking off 1 or more rows or 1 or more columns and eating them, or eating the remaining portion of the bar.
+    </p>
+    
+    <button onclick="toggleHint()">Show/Hide Hint</button>
+    
+    <div id="hint">
+      <p><strong>Hint:</strong></p>
+      <p>
+        Reduce this game to another famous math game.
+      </p>
+    </div>
+    
+    <button onclick="toggleSolution()">Show/Hide Solution</button>
+    
+    <div id="solution">
+      <p><strong>Solution:</strong></p>
+      <p>
+        If marked cell is a, b, c, d away from the boardeds, game is equivalent to <a href="https://en.wikipedia.org/wiki/Nim">Nim game</a> on 4 piles of sizes a, b, c, d.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function toggleHint() {
+      var hint = document.getElementById('hint');
+      if (hint.style.display === 'none' || hint.style.display === '') {
+        hint.style.display = 'block';
+      } else {
+        hint.style.display = 'none';
+      }
+    }
+    
+    function toggleSolution() {
+      var solution = document.getElementById('solution');
+      if (solution.style.display === 'none' || solution.style.display === '') {
+        solution.style.display = 'block';
+      } else {
+        solution.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
+

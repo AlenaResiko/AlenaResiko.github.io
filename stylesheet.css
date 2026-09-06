@@ -1,142 +1,326 @@
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  src: local("Lato Italic"), local("Lato-Italic"), url("https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2") format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  src: local("Lato Italic"), local("Lato-Italic"), url("https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2") format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  src: local("Lato Bold"), local("Lato-Bold"), url("https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2") format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  src: local("Lato Bold"), local("Lato-Bold"), url("https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  color-scheme: light;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #222;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 0;
+  background: #fff;
 }
 
 a {
-  color: #1772d0;
+  color: #1769aa;
   text-decoration: none;
+  text-underline-offset: 0.16em;
 }
 
-a:focus,
+a:focus-visible,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  color: #c96816;
+  text-decoration: underline;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: center;
 }
 
 h2 {
-  margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  margin-bottom: 20px;
   font-size: 22px;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+h3 {
+  margin-bottom: 0;
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.4;
 }
 
-.name {
-  padding-top: 20px;
+p {
+  margin-bottom: 0;
+  line-height: 1.55;
+}
+
+.page {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 26px 20px 18px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 120px;
+  gap: 12px;
+  align-items: center;
+  padding: 0 6px 8px;
+}
+
+.profile-copy {
+  min-width: 0;
+}
+
+.bio {
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 8px;
+  margin-top: 18px;
+  line-height: 1.7;
+}
+
+.contact-links span {
+  color: #777;
+}
+
+.portrait-link {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+.portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section {
+  margin-top: 38px;
+  padding: 0 6px;
+}
+
+.experience-list,
+.project-list {
+  display: grid;
+  gap: 24px;
+}
+
+.experience-entry,
+.project-copy {
+  min-width: 0;
+}
+
+.experience-entry > p,
+.project-copy > p:last-child {
+  margin-top: 7px;
+}
+
+.entry-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.entry-heading time,
+.date {
+  color: #555;
+  white-space: nowrap;
+}
+
+.role {
+  color: #444;
+  line-height: 1.4;
+}
+
+.project-list {
+  gap: 28px;
+}
+
+.project-entry {
+  display: block;
+}
+
+.entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 7px;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+.compact-section {
+  margin-top: 34px;
+}
+
+.hackathon-list {
+  display: grid;
+  gap: 10px;
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
+.hackathon-detail {
+  color: #444;
 }
 
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+.hackathon-description {
+  display: block;
+  color: #444;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+footer {
+  margin-top: 42px;
+  padding: 18px 6px 0;
+  border-top: 1px solid #e8e8e8;
+  color: #666;
+  font-size: 12px;
+  text-align: right;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+footer p {
+  line-height: 1.5;
 }
 
-.colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
+@media (max-width: 640px) {
+  .page {
+    padding: 22px 16px 16px;
+  }
+
+  .profile {
+    grid-template-columns: minmax(0, 1fr) 150px;
+    gap: 24px;
+  }
+
+  .portrait-link {
+    max-width: 150px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .profile {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .profile-copy {
+    order: 2;
+  }
+
+  .portrait-link {
+    order: 1;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  .section {
+    margin-top: 34px;
+  }
+
+  .entry-heading {
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .entry-heading {
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+
+  .entry-heading time,
+  .date {
+    white-space: normal;
+  }
 }

@@ -1,246 +1,215 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Alena Chan</title>
-
     <meta name="author" content="Alena Chan">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <meta
+      name="description"
+      content="I'm a student at Columbia University studying Computer Science and Applied Math. Recently, I was a SWE intern at Google CoreML."
+    >
+    <meta property="og:title" content="Alena Chan">
+    <meta
+      property="og:description"
+      content="I'm a student at Columbia University studying Computer Science and Applied Math. Recently, I was a SWE intern at Google CoreML."
+    >
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Alena Chan
-                </p>
-                <p>
-		I'm a Computer Science student at Columbia University.
-    I previously worked as a SWE intern.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:alenachan121@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <a href="https://www.linkedin.com/in/alena-chan-858428226/">LinkedIn</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/AlenaChan-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="interesting-links.html">interesting links</a> &nbsp;/&nbsp;
-                  <a href="">click!</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/alenaresiko/">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/AlenaChan.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/AlenaChan.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                  <img src='images/projection-pop-song.jpg' width="160">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Sentence Embeddings</span>
-                <!-- <em>arXiv (in progress)</em>, 2024 -->
-                <br>
-                <a href="https://github.com/AlenaResiko/UML">GitHub</a>
-                <p></p>
-                <p>
-                  tldr: study how domain and embedding dimensionality interact in unsupervised sentence encoders. Compare sentence embeddings learned from pop songs and scientific papers data.
-                </p>
-              </td>
-            </tr>
-            
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src='images/pytorch-logo.jpg' width="160">
-            </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">TorchInductor Debugger</span>
-                <br>
-                <a href="https://github.com/Austeleus/inductor-debug-module">github</a>
-                <p></p>
-                <p>
-                  A comprehensive debugging toolkit for developing custom accelerators with PyTorch's TorchInductor compiler, supporting both eager graph validation and full AOTAutograd + kernel-level compilation. This project provides tools to simulate hardware constraints, compare outputs across backends, generate detailed reports, and benchmark model performance. 
-                </p>
-              </td>
-            </tr>
+    <main class="page">
+      <header class="profile">
+        <div class="profile-copy">
+          <h1>Alena Chan</h1>
+          <p class="bio">
+            I'm a student at Columbia University studying Computer Science and Applied Math. Recently, I was a SWE intern at Google CoreML.
+          </p>
+          <nav class="contact-links" aria-label="Contact links">
+            <a href="mailto:alenachan121@gmail.com">Email</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://www.linkedin.com/in/alena-chan-858428226/">LinkedIn</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/alenaresiko/">GitHub</a>
+          </nav>
+        </div>
+        <a class="portrait-link" href="images/AlenaChan.jpg" aria-label="View profile photo">
+          <img class="portrait" src="images/AlenaChan.jpg" alt="Alena Chan" width="800" height="800">
+        </a>
+      </header>
 
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src='images/Fly.jpg' width="160">
-            </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Fly language</span>
-                <em>link</em>, 2025
-                <br>
-                <a href="https://github.com/flylanguage/fly">github</a>
-                <p></p>
-                <p>
-                  Built Fly language using OCaml LLVM. Fly is a beginner-friendly safe introduction to OOP and functional programming. 
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                  <img src='images/Cubesat.jpg' width="160">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Filter for CubeSat control</span>
-                <em>arXiv (in progress)</em>, 2024
-                <br>
-                <a href="https://github.com/AlenaResiko/CubeSat-ADCS-via-EKF">GitHub</a>
-                <p></p>
-                <p>
-                  tldr: Extended Kalman Filter to denoise sensor readings, achieving 58% reduction in orientation estimation error. Built satellite control dynamics simulation (MATLAB) and control logic.
-                </p>
-              </td>
-            </tr>
-
-          </tbody></table>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                I'm interested in mathematical modeling and machine learning. I did some research projects in dynamical system stability, TDA, statistical filtering and optimizers.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  
-          
-          <tr onmouseout="npil_stop()" onmouseover="npil_start()">
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='stable_system'>
-                  <img src='images/stable_system_after.jpg' height="160"></div>
-                <img src='images/stable_system_before.jpg' height="160">
+      <section class="section" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="experience-list">
+          <article class="experience-entry">
+            <div class="entry-heading">
+              <div>
+                <h3>Google</h3>
+                <p class="role">Software Engineering Intern, AI and Systems Research</p>
               </div>
-              <script type="text/javascript">
-                function npil_start() {
-                  document.getElementById('stable_system').style.opacity = "1";
-                }
+              <time datetime="2026">2026</time>
+            </div>
+            <p>
+              Built a memory-augmented retrieval system for LLM-based autoraters, improving classification accuracy from 59% to 70%.
+            </p>
+          </article>
 
-                function npil_stop() {
-                  document.getElementById('stable_system').style.opacity = "0";
-                }
-                npil_stop()
-              </script>
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2209.00135">
-                <span class="papertitle">Stabilizing effect of delay in higher dimensions</span>
-              </a>
-              <br>
-              <strong>Alena Chan</strong>
-              <br>
-              <em>arXiv</em>, 2022
-              <br>
-              <a href="https://arxiv.org/abs/2209.00135">arXiv</a>
-              <p></p>
+          <article class="experience-entry">
+            <div class="entry-heading">
+              <div>
+                <h3>Uncountable</h3>
+                <p class="role">Software Engineering Intern</p>
+              </div>
+              <time datetime="2025">2025</time>
+            </div>
+            <p>
+              Built similarity search for scientific experiments using experiment curve embeddings, alongside product improvements to visualization, permissions, and testing.
+            </p>
+          </article>
+
+          <article class="experience-entry">
+            <div class="entry-heading">
+              <div>
+                <h3>Columbia University</h3>
+                <p class="role">Teaching Assistant</p>
+              </div>
+              <span class="date">2024&ndash;2025</span>
+            </div>
+            <p>
+              TA for Analysis of Algorithms (Fall'25), Advanced Programming in C (Spring'25), Data Structures in Java (Fall'24).
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="work-heading">
+        <h2 id="work-heading">Selected Projects &amp; Research</h2>
+        <div class="project-list">
+          <article class="project-entry">
+            <div class="project-copy">
+              <div class="entry-heading">
+                <h3>HockeyBench: Decision-Making Under Uncertainty Benchmark</h3>
+                <span class="date">2026&ndash;present</span>
+              </div>
               <p>
-                Stabilizing a 3-agent system of linear differential equations by introducing a delayed response.
+                Building an evaluation framework for agents' decision-making under uncertainty, assessed in a multi-agent fantasy-hockey arena.
               </p>
-            </td>
-          </tr>
+            </div>
+          </article>
 
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/snake.jpg" style="max-height:150px; width:auto;">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2508.04707">
-                <span class="papertitle">From Rattle to Roar: Optimizer Showdown for MambaStock on S&P500</span>
-              </a>
-			  <br>
-              <em>arXiv</em>, 2025
-              <br>
-              <a href="https://github.com/maria-garmonina/snakes-on-trading-floor">github</a>
-              <p></p>
+          <article class="project-entry">
+            <div class="project-copy">
+              <h3>TorchInductor Debugger</h3>
+              <p class="entry-links">
+                <a href="https://github.com/Austeleus/inductor-debug-module">GitHub</a>
+                <span aria-hidden="true">&middot;</span>
+                <a href="https://medium.com/@sriragt/debugging-what-you-cant-see-building-a-torchinductor-debugger-for-custom-accelerators-70863fcd7362">Medium</a>
+              </p>
               <p>
-                Designed novel Roaree optimizer that addresses oscillatory training losses of Lion optimizer and preserves fast convergence. Roaree outperformed existing optimizers in stock prediction using Mamba model.
+                Built a PyTorch/TorchInductor toolkit for accelerator and compiler debugging, validating eager against compiled execution and supporting full AOTAutograd and kernel-level compilation.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-copy">
+              <div class="entry-heading">
+                <h3>CubeSat ADCS</h3>
+                <span class="date">2024</span>
+              </div>
+              <p class="entry-links">
+                <a href="https://github.com/AlenaResiko/CubeSat-ADCS-via-EKF">GitHub</a>
+              </p>
+              <p>
+                Developed an EKF/MEKF-based attitude determination system and satellite control simulation, reducing orientation-estimation error by 58%.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-copy">
+              <div class="entry-heading">
+                <h3>Roaree Optimizer for MambaStock</h3>
+                <span class="date">Preprint, 2025</span>
+              </div>
+              <p class="entry-links">
+                <a href="https://arxiv.org/abs/2508.04707">arXiv</a>
+                <span aria-hidden="true">&middot;</span>
+                <a href="https://github.com/maria-garmonina/snakes-on-trading-floor">GitHub</a>
+              </p>
+              <p>
+                Designed Roaree, an optimizer targeting oscillatory training behavior in Lion, and evaluated it on Mamba-based S&amp;P 500 prediction.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-copy">
+              <div class="entry-heading">
+                <h3>Fly Language</h3>
+                <span class="date">2025</span>
+              </div>
+              <p class="entry-links">
+                <a href="https://github.com/flylanguage/fly">GitHub</a>
+              </p>
+              <p>
+                Built a programming language and compiler in OCaml/LLVM with object-oriented and functional language features.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-copy">
+              <div class="entry-heading">
+                <h3>Curvature Estimation for Point Clouds</h3>
+                <span class="date">2024</span>
+              </div>
+              <p class="entry-links">
+                <a href="https://github.com/AlenaResiko/Project_curvature">GitHub</a>
+              </p>
+              <p>
+                Developed an Ollivier-Ricci curvature algorithm using optimal transport and demonstrated convergence of discrete curvature to scalar curvature on random geometric graphs sampled from manifolds. Applied curvature-based analysis to single-cell sequencing data, constructing connectivity graphs and identifying developmental bottlenecks in high-dimensional trajectories.
 
               </p>
-            </td>
-          </tr>
+            </div>
+          </article>
+        </div>
+      </section>
 
-        </tbody></table>
+      <section class="section compact-section" aria-labelledby="hackathons-heading">
+        <h2 id="hackathons-heading">Hackathons</h2>
+        <ul class="hackathon-list">
+          <li>
+            TreeHacks 2026: <strong>mark.ai</strong> &mdash;
+            <a href="https://devpost.com/software/mark-itkvsl">Devpost</a>
+            <span class="hackathon-description">Solutions marketplace for AI agents.</span>
+          </li>
+          <li>
+            TreeHacks 2025: <strong>Noteworthy</strong> &mdash;
+            <a href="https://devpost.com/software/noteworthy-visualize-capture-remember">Devpost</a>
+            <span class="hackathon-detail">(2nd place, Zoom track)</span>
+            <span class="hackathon-description">AI-powered lecture companion.</span>
+          </li>
+          <li>
+            TreeHacks 2024: <strong>Memory Playground</strong> &mdash;
+            <a href="https://devpost.com/software/memory-playground">Devpost</a>
+            <span class="hackathon-detail">(3rd place, Intel track)</span>
+            <span class="hackathon-description">Web app for memory training.</span>
+          </li>
+        </ul>
+      </section>
 
-          
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Hackathons</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://devpost.com/software/noteworthy-visualize-capture-remember">Noteworthy, Treehacks-2025</a><br>
-                <a href="https://devpost.com/software/memory-playground">Memory playground, Treehacks-2024</a><br>
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href=""> ...talks description coming...</a>
-              </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Misc</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href=""> Other Awesome Stuff</a>
-            </tr>
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  This template was copied from <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. Photos are from Unsplash. Website is under construction. Last updated September 2025.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
+      <footer>
+        <p>
+          Last updated September 2026. Based on <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website template</a>.
+        </p>
+      </footer>
+    </main>
   </body>
 </html>

@@ -133,10 +133,6 @@ p {
 }
 
 .profile {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 120px;
-  gap: 12px;
-  align-items: center;
   padding: 0 6px 8px;
 }
 
@@ -159,22 +155,6 @@ p {
 
 .contact-links span {
   color: #777;
-}
-
-.portrait-link {
-  display: block;
-  width: 100%;
-  max-width: 120px;
-  border-radius: 50%;
-}
-
-.portrait {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 50%;
 }
 
 .section {
@@ -272,33 +252,9 @@ footer p {
     padding: 22px 16px 16px;
   }
 
-  .profile {
-    grid-template-columns: minmax(0, 1fr) 150px;
-    gap: 24px;
-  }
-
-  .portrait-link {
-    max-width: 150px;
-  }
-
 }
 
 @media (max-width: 500px) {
-  .profile {
-    grid-template-columns: 1fr;
-    gap: 22px;
-  }
-
-  .profile-copy {
-    order: 2;
-  }
-
-  .portrait-link {
-    order: 1;
-    width: 150px;
-    margin: 0 auto;
-  }
-
   h1 {
     margin-bottom: 16px;
   }

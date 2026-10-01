@@ -133,11 +133,28 @@ p {
 }
 
 .profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 36px;
+  align-items: center;
   padding: 0 6px 8px;
 }
 
 .profile-copy {
   min-width: 0;
+}
+
+.profile h1 {
+  text-align: left;
+}
+
+.profile-image {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #e0e0e0;
 }
 
 .bio {
@@ -147,14 +164,28 @@ p {
 .contact-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0 8px;
+  justify-content: flex-start;
+  gap: 14px;
   margin-top: 18px;
-  line-height: 1.7;
 }
 
-.contact-links span {
-  color: #777;
+.contact-links a {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  color: #444;
+}
+
+.contact-links a:hover,
+.contact-links a:focus-visible {
+  color: #c96816;
+  text-decoration: none;
+}
+
+.contact-links svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
 }
 
 .section {
@@ -168,12 +199,12 @@ p {
   gap: 24px;
 }
 
-.experience-entry,
+.experience-copy,
 .project-copy {
   min-width: 0;
 }
 
-.experience-entry > p,
+.experience-copy > p:last-child,
 .project-copy > p:last-child {
   margin-top: 7px;
 }
@@ -196,6 +227,44 @@ p {
   line-height: 1.4;
 }
 
+.experience-list {
+  position: relative;
+  gap: 28px;
+}
+
+.experience-list::before {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 105px;
+  border-left: 1px solid #cfcfcf;
+  content: "";
+}
+
+.experience-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 28px;
+}
+
+.experience-entry::before {
+  position: absolute;
+  top: 5px;
+  left: 101px;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  background: #fff;
+  content: "";
+}
+
+.experience-date {
+  color: #555;
+  line-height: 1.4;
+}
+
 .project-list {
   gap: 28px;
 }
@@ -214,6 +283,16 @@ p {
 
 .compact-section {
   margin-top: 34px;
+}
+
+.section-intro {
+  margin: -8px 0 16px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.misc-links {
+  margin-top: 7px;
 }
 
 .hackathon-list {
@@ -247,9 +326,37 @@ footer p {
   line-height: 1.5;
 }
 
+footer p + p {
+  margin-top: 4px;
+}
+
 @media (max-width: 640px) {
   .page {
     padding: 22px 16px 16px;
+  }
+
+  .profile {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .profile-copy {
+    grid-row: 2;
+  }
+
+  .profile h1 {
+    text-align: center;
+  }
+
+  .profile-image {
+    grid-row: 1;
+    justify-self: center;
+    width: 150px;
+    height: 150px;
+  }
+
+  .contact-links {
+    justify-content: center;
   }
 
 }
@@ -265,6 +372,23 @@ footer p {
 
   .entry-heading {
     gap: 10px;
+  }
+
+  .experience-list::before {
+    left: 77px;
+  }
+
+  .experience-entry {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .experience-entry::before {
+    left: 73px;
+  }
+
+  .experience-date {
+    font-size: 12px;
   }
 
 }
